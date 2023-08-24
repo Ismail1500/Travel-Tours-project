@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+#nav{
+    background: white;
+    margin: 0;
+}
+#nav #logo{
+    font-size: 36px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    
+}
+
+#logo span{
+    color: gold;
+}
+
+.navbar-toggler span #menubtn{
+    color: gold !important;
+    
+}
+
+.navbar-nav{
+    margin-left: 20px;
+}
+
+.nav-item a{
+    color: black;
+    font-size: 16px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.5s ease;
+
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-left: 20px;
+}
+
+.nav-item a:hover{
+    background: gold;
+    color: white !important;
+    border-radius: 5px;
+} 
+
+form .btn {
+    border: none;
+    border-radius: 10px;
+    background-color: gold;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+form .btn:hover{
+    background: rgba(26, 84, 32, 0.219);
+    transition: 0.5s ease;
+    color: black;   
+}
+
+/* navbar End */
+
+/* home section start */
+
+.home{
+    width: 100%;
+    height: 87vh;
+    background-image: url("./images/bg1.jpg");
+    background-repeat: none;
+    background-size:cover;
+    
+}
+.home .content{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.home .content h3{
+    font-size: 38px;
+    font-weight: 500;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+}
+.home .content h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    margin-top: 5px;
+}
+.changeContent::after{
+    content: ' ';
+    color: gold;
+    text-shadow: 0px 1px 5px black;
+    animation: changetxt 10s infinite linear;
+
+}
+@keyframes changetxt {
+    0%{content: "Pune";}
+    10%{content: "Mumbai";}
+    20%{content: "Latur";}
+    30%{content: "Aurangabad";}
+    40%{content: "Mysore";}
+    50%{content: "Delhi";}
+    60%{content: "Channai";}
+    70%{content: "Bengaluru";}
+    80%{content: "Hyderabad";}
+    90%{content: "Agra";}
+    100%{content: "Kolkata";}
+    
+}
+.home .content p{
+    font-size: 30px;
+    font-weight: 300;
+    color: white;
+    text-shadow: 0px 1px 2px black;
+    font-weight: bolder;
+}
+
+.home .content a{
+    padding: 10px;
+    background: white;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.home .content a:hover{
+    color: white;
+    background-color: gold;
+}
+@media (max-width:450px) {
+    body{
+        background-position: 30%;
+    }
+    
+}
+
+@media (max-width:450px){
+    .home .content h3{
+        font-size:25px ;
+    }
+    .home .content h1{
+        font-size:38px ;
+    }
+    .home .content p{
+        font-size:13px ;
+    }
+}
+/* end home page */
+
+.container .main-text h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+}
+.container .main-text h1 span{
+    color: gold;
+}
+.carousel-inner .carousel-item img{
+    width: 90%;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black ;
+}
+.card-group .card img{
+    width: 100%;
+    height: 550px;
+    border-radius: 10px;
+    box-shadow:0px 0px 10px black ;
+}
+.card-group .card{
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+}
+.card-group .card input {
+    width: 80%;
+    box-shadow: 0px 5px 5px black;
+    margin-bottom: 20px;
+}
+.card-group .card textarea{
+    width: 80%;
+    box-shadow: 0px 5px 5px black;
+}
+.card-group .card button{
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.container .card-group{
+    gap: 50px;
+}
+
+/* end book page */
+
+.packages .container .card{
+    height: 500px;
+    box-shadow: 0px 1px 5px rgb(27, 51, 24) !important;
+    
+
+}
+.packages .container h1{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+}
+.packages .container h1 span{
+    color: gold;
+}
+
+.container #star{
+    color: gold;
+}
+.packages .container .card #btn{
+    background: gold;
+    border: none;
+    letter-spacing: 1px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 5px;
+    border-radius: 10px;
+}
+.packages .container .card:hover{
+    box-shadow: 0px 0px 20px rgb(214, 20, 208) !important ;
+    cursor: pointer;
+}
+.packages .container .card #btn:hover{
+    background: rgba(26, 84, 32, 0.219);
+    color: black;
+    transition: 0.5s ease;
+}
+.packages .container .card .price{
+    margin-top: 5px;
+}
+.packages .container .card .price span{
+    font-weight: bolder;
+}
+.price .city{
+    margin-bottom: 16px;
+    margin-top: 10px;
+}
+
+/*end package section  */
+
+.services .container h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+        
+}
+.services .container h1 span{
+    color: gold;
+}
+
+.col .card-body .ser{
+    font-size: 25px;
+    font-weight: 200px;
+    text-align: center;
+    text-decoration: underline solid gold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+}
+.col .card-body h6{
+    text-align: justify; 
+    letter-spacing: 1px;
+}
+
+.services .container .card-body #icons {
+    text-align: center;
+    color:gold;
+}
+
+.services .container .card-body .plane{
+    rotate: 90deg;
+}
+.services .container .card:hover{
+    box-shadow: 0px 0px 20px rgb(14, 145, 42) !important ;
+    background: 0px 0px 5px rgb(0, 17, 128) !important;
+    cursor: pointer;
+}
+
+/* end services */
+
+.gallary .container h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+}
+
+.gallary .container  span{
+    color: gold;
+}
+/* end gallary section */
+
+.about .container h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 50px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-shadow: 0px 1px 2px black;
+    padding: 10px;
+}
+
+.about .container  span{
+    color: gold;
+}
+
+/* end about */
+
+.footer{
+    margin-top: 40px;
+}
