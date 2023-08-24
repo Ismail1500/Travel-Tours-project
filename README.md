@@ -27,9 +27,9 @@ Welcome to the Travel and Tour Website project! This website is built using HTML
 
 To get started with this project:
 
-1. Clone this repository: `git clone https://github.com/your-username/travel-and-tour-website.git`
+1. Clone this repository: `git clone https://github.com/Ismail1500/Travel-Tours-project.git`
 2. Open the `index.html` file in your preferred web browser.
-3. Explore the different sections of the website, including destinations, tour packages, and contact form.
+3. Explore the different sections of the website, including destinations, tour packages, and contact forms.
 4. Customize the content in the HTML files to add your own travel destinations and tour details.
 
 ## Customization
@@ -41,7 +41,7 @@ You can easily customize the website by modifying the existing HTML and CSS file
 
 ## Contribution
 
-If you'd like to contribute to this project, submit pull requests. Here are some areas you can contribute to:
+If you'd like to contribute to this project, please feel free to submit pull requests. Here are some areas you can contribute to:
 
 - Adding more travel destinations and tour packages
 - Enhancing the design and layout of the website
@@ -49,3 +49,5 @@ If you'd like to contribute to this project, submit pull requests. Here are some
 ---
 
 *This travel and tour website template was created with ❤️ using HTML, CSS, and Bootstrap.*
+
+*CREATED BY  ❤️ ISMAIL SHAIKH *
